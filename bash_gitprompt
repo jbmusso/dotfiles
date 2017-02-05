@@ -1,0 +1,5 @@
+export GIT_PS1_SHORTDIRTYSTATE=1 GIT_PS1_SHOWSTASHSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM=auto GIT_PS1_DESCRIBE_STYLE=branch
+PS1='[\A] \[\e[1;32m\]\u\[\e[1;34m\]@\h:\w\[\e[0m\]$(__git_ps1 " ( \[\e[1;31m\]%s\[\e[0m\] ) ")\$ '
+
+
